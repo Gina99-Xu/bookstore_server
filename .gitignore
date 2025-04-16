@@ -1,0 +1,40 @@
+# IDE specific files
+.idea/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+bin/
+*.swp
+*.swo
+
+# Build output
+target/
+build/
+out/
+bin/
+
+# Log files
+*.log
+logs/
+
+# Dependency directories
+.gradle/
+node_modules/
+
+# Environment files
+*.env
+.env*
+!.env.example
+application*.properties
+application*.yml
+!application-sample.properties
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Test output
+test-output/
